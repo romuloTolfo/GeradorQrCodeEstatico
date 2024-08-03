@@ -1,0 +1,53 @@
+unit uGeraPix;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons, Vcl.StdCtrls;
+
+type
+  TfrmGeraPix = class(TForm)
+    edtChave: TEdit;
+    edtValor: TEdit;
+    edtNome: TEdit;
+    edtCidade: TEdit;
+    edtDesc: TEdit;
+    edtId: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    lbInst: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    btPix: TSpeedButton;
+    btnQR: TSpeedButton;
+    imgQR: TImage;
+    Edit1: TEdit;
+    btnCopiarchave: TSpeedButton;
+    procedure imgQRClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmGeraPix: TfrmGeraPix;
+
+implementation
+
+uses
+  ACBrDelphiZXingQRCode, uClassePix;
+{$R *.dfm}
+
+procedure TfrmGeraPix.imgQRClick(Sender: TObject);
+begin
+  if imgqr.Align <> alClient then imgqr.Align := alClient else
+  imgqr.Align := alNone;
+end;
+
+end.

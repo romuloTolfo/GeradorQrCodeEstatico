@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/01/28 15:19:15.000.838,=C:\Users\Rômulo Tolfo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/05/19 17:09:18.000.307,=C:\Users\Rômulo Tolfo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/03 11:22:49.375,=C:\Users\Rômulo Tolfo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/03 11:40:00.128,D:\1.FONTES\1.DELPHI\8.Componentes criados\GeradorQrCodeEstatico\uGeraPix.dfm=C:\Users\Rômulo Tolfo\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/08/03 11:40:00.128,D:\1.FONTES\1.DELPHI\8.Componentes criados\GeradorQrCodeEstatico\uGeraPix.pas=C:\Users\Rômulo Tolfo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/03 11:40:10.928,D:\1.FONTES\1.DELPHI\8.Componentes criados\GeradorQrCodeEstatico\GeraPIXEstatico.dproj=C:\Users\Rômulo Tolfo\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+    <Transaction>2024/08/03 11:41:29.150,=D:\1.FONTES\1.DELPHI\8.Componentes criados\GeradorQrCodeEstatico\ACBrDelphiZXingQRCode.pas</Transaction>
+    <Transaction>2024/08/03 11:41:29.165,=D:\1.FONTES\1.DELPHI\8.Componentes criados\GeradorQrCodeEstatico\uClassePixEstatico.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="RX8NC02PJDX" Android="RX8NC02PJDX"/>
+	</ActiveMobileDevice>
+</BorlandProject>
